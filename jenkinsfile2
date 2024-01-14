@@ -1,5 +1,5 @@
 pipiline {
-    agent none 
+    agent any
     stages{
         stage('maven commands'){
             steps{
