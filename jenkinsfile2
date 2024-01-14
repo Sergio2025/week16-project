@@ -1,8 +1,9 @@
-pipiline {
+pipeline {
     agent any
-    stages{
-        stage('maven commands'){
-            steps{
+
+    stages {
+        stage('maven commands') {
+            steps {
                 sh 'mvn clean compile install package'
             }
         }
